@@ -7,4 +7,4 @@ test:
 	go test ./...
 
 update_cache:
-	curl https://sum.golang.org/lookup/github.com/go-oas/docs@v$(VER)
+	curl https://sum.golang.org/lookup/github.com/Dev22doo/go-oas-docs@v$(VER)

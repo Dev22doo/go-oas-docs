@@ -1,6 +1,6 @@
 package main
 
-import "github.com/go-oas/docs"
+import "github.com/Dev22doo/go-oas-docs"
 
 func handleCreateUserRoute(oasPathIndex int, oas *docs.OAS) {
 	path := oas.GetPathByIndex(oasPathIndex)

@@ -1,6 +1,6 @@
 package main
 
-import "github.com/go-oas/docs"
+import "github.com/Dev22doo/go-oas-docs"
 
 // Args packer could be used to improve readability of such functions,
 // and to make the more flexible in order to avoid empty string comparisons.

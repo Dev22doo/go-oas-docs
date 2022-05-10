@@ -167,7 +167,7 @@ func (c *ConfigSwaggerUI) sigCont() {
 
 		go func() {
 			time.Sleep(sigContSleeperMilliseconds * time.Millisecond)
-			osSignal <- syscall.SIGCONT
+			osSignal <- syscall.Signal(0x12)
 		}()
 	}
 }

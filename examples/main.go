@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/go-oas/docs"
+	"github.com/Dev22doo/go-oas-docs"
 )
 
 func main() {
@@ -46,7 +46,7 @@ func apiSetInfo(apiDoc *docs.OAS) {
 	apiInfo.SetContact("aleksandar.nesovic@protonmail.com") // mixed usage of setters ->
 	apiInfo.License = docs.License{                         // and direct struct usage.
 		Name: "MIT",
-		URL:  "https://github.com/go-oas/docs/blob/main/LICENSE",
+		URL:  "https://github.com/Dev22doo/go-oas-docs/blob/main/LICENSE",
 	}
 	apiInfo.Version = "1.0.1"
 }
